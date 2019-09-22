@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'bottom_tabbar.dart';
+import 'package:stacony/component/bottom_tabbar.dart';
 
 void main() => runApp(MyApp());
 

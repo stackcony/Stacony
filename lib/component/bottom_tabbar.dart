@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:stacony/module/problem/problem_list_screen.dart';
+import 'package:stacony/module/news/news_list_screen.dart';
 
 class BottomNavBarWidget extends StatefulWidget {
   @override 
@@ -25,17 +27,17 @@ class BottomNavBarWidgetState extends State<BottomNavBarWidget> {
   void initState() {
     datas
       ..add(BottomNavBarTabItem(
-        ProblemScreen(),
+        NewsListScreen(),
         Text('Home'),
         Icon(Icons.home),
       ))
       ..add(BottomNavBarTabItem(
-        ProblemScreen(),
+        ProblemListScreen(),
         Text('My'),
         Icon(Icons.people),
       ))
       ..add(BottomNavBarTabItem(
-        ProblemScreen(),
+        ProblemListScreen(),
         Text('Setting'),
         Icon(Icons.settings),
       ));
